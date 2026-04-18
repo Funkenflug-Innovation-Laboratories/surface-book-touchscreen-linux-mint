@@ -15,9 +15,10 @@ Diese Anleitung unterstützt Sie bei der Aktivierung des Touchscreens auf dem **
 ### BIOS-Einstellungen
 
 
+
 | Schritt                               | Bild   |
 | ------------------------------------- | ------ |
-| **1. BIOS starten**                   | &nbsp; |
+| **1. BIOS starten**                   | [Uploading IMG_20260418_142249474.jpg…]()p; |
 | **2. PC-Informationen**               | &nbsp; |
 | **3. Boot-Konfiguration**             | &nbsp; |
 | **4. USB als Boot-Option aktivieren** | &nbsp; |
