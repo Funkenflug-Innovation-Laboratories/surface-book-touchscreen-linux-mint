@@ -26,6 +26,11 @@ Diese Anleitung unterstützt Sie bei der Aktivierung des Touchscreens auf dem **
  | **6. USB als Boot-Option aktivieren** | ![USB als Boot-Option aktivieren](Pictures/IMG_20260418_142332109.jpg) |
  | **7. Exit and Save** | ![Exit and Save](Pictures/IMG_20260418_142336341.jpg) |
 
+## Wichtiger Hinweis zu Schritt 2: BIOS starten
+Einschalten: Drücken Sie kurz den Power-Knopf, um das Surface Book einzuschalten.
+
+BIOS betreten: Sofort nach dem Einschalten den Power-Knopf loslassen und dann Power + Lauter-Taste (Vol+) gedrückt halten, um ins BIOS zu gelangen.
+
 
 
  
