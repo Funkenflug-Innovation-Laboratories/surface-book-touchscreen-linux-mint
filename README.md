@@ -1,5 +1,3 @@
-# surface-book-touchscreen-linux-mint
-Anleitung zur Aktivierung des Touchscreens auf Microsoft Surface Book Gen 1 unter Linux Mint mit linux-surface-Kernel, iptsd und libwacom-surface
 # Surface Book Touchscreen unter Linux Mint aktivieren
 
 **Funkenflug Innovation Laboratories**
@@ -9,6 +7,24 @@ Anleitung zur Aktivierung des Touchscreens auf Microsoft Surface Book Gen 1 unte
 ## 📌 Ziel
 
 Diese Anleitung unterstützt Sie bei der Aktivierung des Touchscreens auf dem **Microsoft Surface Book Gen 1** unter **Linux Mint**. Das Projekt nutzt den **linux-surface-Kernel**, `iptsd` und `libwacom-surface`, um die volle Funktionalität des Touchscreens zu ermöglichen.
+
+---
+
+## 📸 Visuelle Übersicht
+
+### BIOS-Einstellungen
+
+
+| Schritt                               | Bild   |
+| ------------------------------------- | ------ |
+| **1. BIOS starten**                   | &nbsp; |
+| **2. PC-Informationen**               | &nbsp; |
+| **3. Boot-Konfiguration**             | &nbsp; |
+| **4. USB als Boot-Option aktivieren** | &nbsp; |
+| **5. Geräte aktivieren**              | &nbsp; |
+| **6. USB-Stick anschließen**          | &nbsp; |
+| **7. Secure Boot deaktivieren**       | &nbsp; |
+
 
 ---
 
