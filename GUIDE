@@ -1,1 +1,102 @@
+# Detaillierte Anleitung zur Aktivierung des Touchscreens auf dem Microsoft Surface Book Gen 1 unter Linux Mint
 
+---
+
+## 1. Vorbereitung
+
+### 1.1 Linux Mint ISO herunterladen
+
+1. Besuchen Sie die offizielle Linux Mint Webseite: [Linux Mint Downloads](https://linuxmint.com/download.php).
+2. Wählen Sie die **Cinnamon Edition** aus und laden Sie die ISO-Datei herunter.
+
+### 1.2 Rufus Portable herunterladen
+
+1. Besuchen Sie die Rufus Webseite: [Rufus Downloads](https://rufus.ie/de/#download).
+2. Laden Sie die **Portable-Version** von Rufus herunter.
+
+---
+
+## 2. Bootfähigen USB-Stick erstellen
+
+### 2.1 Rufus starten
+
+1. Öffnen Sie Rufus Portable.
+2. Wählen Sie Ihren USB-Stick aus dem Dropdown-Menü aus.
+3. Klicken Sie auf **AUSWÄHLEN** und wählen Sie die heruntergeladene Linux Mint ISO-Datei aus.
+
+### 2.2 Schreibmodus auswählen
+
+1. Stellen Sie sicher, dass der **ISO-Modus** ausgewählt ist.
+2. Klicken Sie auf **START**, um den Schreibvorgang zu beginnen.
+3. Bestätigen Sie die Warnungen mit **Ja**.
+
+---
+
+## 3. BIOS-Einstellungen anpassen
+
+### 3.1 BIOS starten
+
+1. Starten Sie das Surface Book und drücken Sie sofort **Power + Lauter-Taste**, um ins BIOS zu gelangen.
+
+### 3.2 Einstellungen vornehmen
+
+1. Navigieren Sie zu **Security** und deaktivieren Sie **Secure Boot** und **TPM**.
+2. Aktivieren Sie **SMT**.
+3. Navigieren Sie zu **Devices** und aktivieren Sie alle Geräte.
+4. Navigieren Sie zu **Boot Configuration** und aktivieren Sie **Enable boot from USB**.
+
+---
+
+## 4. Linux Mint installieren
+
+1. Starten Sie das Surface Book vom USB-Stick.
+2. Folgen Sie den Installationsanweisungen von Linux Mint.
+3. Nach der Installation aktualisieren Sie das System:
+  ```bash
+   sudo apt update && sudo apt upgrade -y
+  ```
+
+---
+
+## 5. Touchscreen aktivieren
+
+### 5.1 Skript herunterladen
+
+1. Laden Sie das Skript **Auto_Install_Touchscreen.sh** herunter und speichern Sie es in Ihrem Download-Ordner.
+
+### 5.2 Skript ausführen
+
+1. Öffnen Sie ein Terminal und navigieren Sie zum Download-Ordner:
+  ```bash
+   cd /home/YourUser/Downloads
+  ```
+2. Führen Sie das Skript aus:
+  ```bash
+   sudo bash Auto_Install_Touchscreen.sh
+  ```
+3. Starten Sie das System neu. Der Touchscreen sollte nun funktionieren.
+
+---
+
+## 6. Fehlerbehebung
+
+
+| Problem                            | Lösung                                                                   |
+| ---------------------------------- | ------------------------------------------------------------------------ |
+| **Secure Boot aktiv**              | Deaktivieren Sie Secure Boot im BIOS.                                    |
+| **USB wird nicht erkannt**         | Prüfen Sie den USB-Anschluss oder versuchen Sie einen anderen USB-Stick. |
+| **Touchscreen funktioniert nicht** | Führen Sie `dmesg                                                        |
+
+
+---
+
+## 7. Lizenz
+
+Dieses Projekt steht unter der **MIT License**. Weitere Informationen finden Sie in der [LICENSE](LICENSE)-Datei.
+
+---
+
+## 8. Mitwirken
+
+Sie haben Fragen oder Verbesserungsvorschläge? Öffnen Sie ein **Issue** auf GitHub:  
+🔗 [GitHub-Repository](https://github.com/Funkenflug-Innovation-Laboratories/surface-book-touchscreen-linux-mint)
