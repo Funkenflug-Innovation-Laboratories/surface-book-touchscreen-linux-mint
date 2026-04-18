@@ -18,14 +18,17 @@ Diese Anleitung unterstützt Sie bei der Aktivierung des Touchscreens auf dem **
 
   Schritt | Bild |
  |---------|------|
- | **1. BIOS starten** | ![BIOS starten](Pictures/IMG_20260418_14222175.jpg) |
- | **2. PC-Informationen** | ![PC-Informationen](Pictures/IMG_20260418_142238929.jpg) |
- | **3. Boot-Konfiguration** | ![Boot-Konfiguration](Pictures/IMG_20260418_142245474.jpg) |
- | **4. USB als Boot-Option aktivieren** | ![USB als Boot-Option aktivieren](Pictures/IMG_20260418_142311707.jpg) |
- | **5. Geräte aktivieren** | ![Geräte aktivieren](Pictures/IMG_20260418_142316741.jpg) |
- | **6. USB-Stick anschließen** | ![USB-Stick anschließen](Pictures/IMG_20260418_142332109.jpg) |
- | **7. Secure Boot deaktivieren** | ![Secure Boot deaktivieren](Pictures/IMG_20260418_142336341.jpg) |
+ | **1. USB-Stick anschließen** | ![USB-Stick anschließen](Pictures/IMG_20260418_142222175.jpg) |
+ | **2. BIOS starten** | ![BIOS starten](Pictures/IMG_20260418_142249474.jpg) |
+ | **3. Secure Boot deaktivieren** | ![Secure Boot deaktivieren](Pictures/IMG_20260418_142311107.jpg) |
+ | **4. Geräte aktivieren** | ![Geräte aktivieren](Pictures/IMG_20260418_142316741.jpg) |
+ | **5. Boot-Konfiguration** | ![Boot-Konfiguration](Pictures/IMG_20260418_142324348.jpg) |
+ | **6. USB als Boot-Option aktivieren** | ![USB als Boot-Option aktivieren](Pictures/IMG_20260418_142332109.jpg) |
+ | **7. Exit and Save** | ![Exit and Save](Pictures/IMG_20260418_142336341.jpg) |
 
+
+
+ 
 
 ---
 
